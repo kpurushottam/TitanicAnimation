@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/holo_green_dark"
+    tools:context="com.romainpiel.titanic.sample.MainActivity">
+
+    <!--<com.krp.sample.animation.TitanicTextView
+        android:id="@+id/my_text_view"
+        android:text="Loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#212121"
+        android:textSize="70sp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+
+    <com.krp.sample.animation.TitanicImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        android:layout_gravity="center"/>-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/car1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/car2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/car3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"/>
+
+    <com.krp.sample.animation.TitanicImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"/>
+
+</LinearLayout>
